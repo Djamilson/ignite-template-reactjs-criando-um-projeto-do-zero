@@ -1,1 +1,72 @@
-// TODO
+
+
+.context {
+  margin-top: 4rem;
+  width: 43.75rem;
+  height: 6.75rem;
+
+  a {
+    width: 43.75rem;
+    height: 6.75rem;
+    display: flex;
+    flex-direction: column;
+    border: 0;
+
+    justify-content: space-between;
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      font-family: 'Inter', sans-serif;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: 400;
+      color: var(--gray-300);
+      font-family: 'Inter', sans-serif;
+    }
+    div {
+      display: inline-block;
+      width: 100%;
+
+      span {
+        margin: 0;
+        font-family: 'Inter', sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        color: var(--gray-100);
+        svg {
+          margin-right: 0.75rem;
+          color: var(--gray-100);
+        }
+      }
+
+      span {
+        margin-right: 1rem;
+      }
+    }
+  }
+}
+
+.contextSection {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 370px;
+    height: 80px;
+  }
+
+  &.article {
+    margin-top: 2.875rem;
+  }
+
+  strong {
+    margin-top: 2.875rem;
+    margin-bottom: 5.5rem;
+
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--highlight);
+    font-family: 'Inter', sans-serif;
+  }
+}

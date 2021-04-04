@@ -1,0 +1,29 @@
+.previewButton {
+  width: 700;
+
+  border-radius: 4px;
+  background: var(--white-100);
+  border: 0;
+  padding: 0 3.5rem;
+
+  height: 3.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gray-900);
+  font-weight: 600;
+  font-size: 18px;
+
+
+  svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+}

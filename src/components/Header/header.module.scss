@@ -1,1 +1,19 @@
-// TODO
+.container {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem 13rem;
+  height: calc(100vh -5rem);
+
+  display: flex;
+  align-items: flex-start;
+  border: 0;
+}
+
+.containerImage {
+  padding: 1rem 0rem;
+  width: 100%;
+  margin: 0 auto;
+  height: calc(100vh -5rem);
+  border: 0;
+}
